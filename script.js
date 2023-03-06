@@ -75,7 +75,7 @@ const game = (() => {
     return {};
   }
 
-  return { takeTurn, }
+  return { takeTurn }
 })();
 
 const displayController = (() => {  
@@ -115,7 +115,7 @@ const displayController = (() => {
     }
   }
 
-  return { placeMarker, setCurrentPlayer, highlightSquares, gameOver };
+  return { placeMarker, setCurrentPlayer, gameOver };
 })();
 
 document.querySelectorAll(".game-square").forEach(el =>
